@@ -1,73 +1,365 @@
-<!DOCTYPE html>
-
-<html lang="es-LA">
+<!doctype html>
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="inGenio Pantoja">
-    <meta name="robots" content="noindex">
 
-    <link href="assets/fonts/font-awesome.css" rel="stylesheet" type="text/css">
-    <link href="assets/fonts/elegant-fonts.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/trackpad-scroll-emulator.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>Bettina Hellmich | Próximamente</title>
+		<title>Bettina Hellmich</title>
 
-</head>
+		<!-- fraimwork - css include -->
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
-<body class=" frame">
+		<!-- icon font - css include -->
+		<link rel="stylesheet" type="text/css" href="assets/css/fontawesome.css">
 
-<div id="outer-wrapper" class="animate translate-z-in">
-    <div id="inner-wrapper">
-        <div id="table-wrapper" class="center">
-            <div class="container">
-                <div id="row-header">
-                    <header><a href="#" id="brand" class="animate animate fade-in animation-time-3s"><img src="assets/img/logo.png" alt=""></a></header>
-                </div>
-                <!--end row-header-->
-                <div id="row-content">
-                    <div id="content-wrapper">
-                        <div id="content" class="animate translate-z-in animation-time-2s delay-03s">
-                            <h1>Bettina Hellmich</h1>
-                            <h2 class="opacity-70">Próximamente</h2>
-                        </div>
-                        <!--end content-->
-                    </div>
-                    <!--end content-wrapper-->
-                </div>
-                <!--end row-content-->
-            </div>
-            <!--end container-->
-        </div>
-        <!--end table-wrapper-->
-        <div class="background-wrapper has-vignette">
-            <div id="particles-js"></div>
-            <div class="bg-transfer opacity-90"><img src="assets/img/background-06.jpg" alt=""></div>
-        </div>
-        <!--end background-wrapper-->
-    </div>
-    <!--end inner-wrapper-->
-</div>
-<!--end outer-wrapper-->
+		<!-- carousel - css include -->
+		<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
 
-<div class="backdrop"></div>
+		<!-- popup - css include -->
+		<link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
 
-<script type="text/javascript" src="assets/js/jquery-2.2.1.min.js"></script>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
-<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
-<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.trackpad-scroll-emulator.min.js"></script>
-<script type="text/javascript" src="assets/js/particles.min.js"></script>
-<script type="text/javascript" src="assets/js/custom.js"></script>
+		<!-- nice select - css include -->
+		<link rel="stylesheet" type="text/css" href="assets/css/nice-select.css">
+
+		<!-- custom - css include -->
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+		<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="57x57" href="master/favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="master/favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="master/favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="master/favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="master/favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="master/favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="master/favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="master/favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="master/favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="master/favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="master/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="master/favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="master/favicon/favicon-16x16.png">
+		<link rel="manifest" href="master/favicon/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="master/favicon/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+
+	</head>
 
 
+	<body>
 
-</body>
+		<!-- body_wrap - start -->
+		<div class="body_wrap">
+
+			<!-- preloader - start -->
+			<div id="preloader"></div>
+			<!-- preloader - end -->
+
+			<!-- header_section - start
+			================================================== -->
+			<header class="header_section">
+				<div class="header_container">
+					<div class="brand_logo">
+						<a class="brand_link" href="index.html">
+							<img src="master/Bettina-Hellmich_logo.png" style="height: 35px;" alt="logo_not_found">
+						</a>
+					</div>
+
+					<nav class="main_menu navbar navbar-expand-lg">
+						<button class="mobile_menu_btn navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_menu_dropdown" aria-controls="main_menu_dropdown" aria-expanded="false" aria-label="Toggle navigation">
+							<i class="fal fa-bars"></i>
+						</button>
+						<div class="main_menu_inner collapse navbar-collapse" id="main_menu_dropdown">
+							<ul class="main_menu_list ul_li_center">
+								<li>
+									<a class="nav-link text-uppercase" href="index.html">Home</a>
+								</li>
+								<li class="dropdown">
+									<a class="nav-link text-uppercase" href="#" id="pages_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										Colecciones
+									</a>
+									<ul class="submenu dropdown-menu" aria-labelledby="pages_submenu">
+										<li><a href="mascaras-africanas.html">Mascaras Africanas</a></li>
+									</ul>
+								</li>
+								<li>
+									<a class="nav-link text-uppercase" href="#contacto">Contacto</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+
+					<div class="header_info_wrap">						
+						<button type="button" class="moreinfo_sidebar_btn">
+							<i class="fal fa-ellipsis-h"></i>
+						</button>
+					</div>
+				</div>
+			</header>
+			<!-- header_section - end
+			================================================== -->
+
+			<!-- main body - start
+			================================================== -->
+			<main>
+
+				<!-- informacion adicional - sidebar - start
+				================================================== -->
+				<div class="sidebar-menu-wrapper">
+					<div class="info_sidebar">
+						<button type="button" class="close_btn"><i class="fal fa-times"></i></button>
+
+						<div class="info_sidebar_content">
+							<h3 class="title_text">
+								Bettina Hellmich.
+							</h3>
+							<p>Soy artista multidisciplinaria alemano-chilena, residente en el Perú desde hace más de 20 años. </p>
+							<p>Mi interés por el arte me llevó estudiar historia y semiótica del arte, a formarme en diversas técnicas de pintura y escultura en cerámica y resina.</p> 
+							<a class="btn_text" href="#sobre-mi"><span>Saber más</span> <i class="fal fa-long-arrow-right"></i></a>
+						</div>
+
+						<div class="social_wrap">
+							<h4>Sígueme</h4>
+							<ul class="social_primary ul_li">
+								<li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#!"><i class="fab fa-instagram"></i></a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="overlay"></div>
+				</div>
+				<!-- informacion adicional - sidebar - end
+				================================================== -->
+
+				<!-- Seccion principal - start
+				================================================== -->
+				<section class="calltoaction_section" style="background-image: url(media/bg_2.jpg)">
+					<div class="container">
+						<ul class="cta_list ul_li">					
+							<li>
+								<a class="btn_text text-white" href="#sobre-mi"><span>Artista</span> <i class="fal fa-chevron-circle-right"></i></a>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<!-- Seccion principal - end
+				================================================== -->
+
+				<!-- Sobre Mi - start
+				================================================== -->
+				<section class="about_section section_space pb-0" id="sobre-mi" >
+					<div class="container">
+						<div class="row justify-content-lg-between">
+
+							<div class="col-lg-5 col-md-5">
+								<div class="section_title">
+									<h2 class="small_title">
+										BIO 
+										<span class="line"></span>
+									</h2>
+									<h3 class="big_title text_effect_wrap">
+										<span class="text_effect_wrap1">
+											<span class="text_effect_wrap2">
+												<span class="text_effect_wrap3">Bettina</span>
+											</span>
+										</span>
+										<span class="text_effect_wrap1">
+											<span class="text_effect_wrap2">
+												<span class="text_effect_wrap3">Hellmich</span>
+											</span>
+										</span>
+									</h3>
+									<a class="btn_text" href="#">
+										<span>Colecciones</span> 
+										<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M10 0V7.50063H9.16833V1.42131L0.587991 10L0 9.41015L8.57868 0.833125H2.49418V0H10Z" fill="white"/>
+										</svg>
+									</a>
+								</div>
+							</div>
+
+							<div class="col-lg-6 col-md-7">
+								<div class="about_content">
+									<h3 class="about_title text_effect_wrap">
+										<span class="text_effect_wrap1">
+											<span class="text_effect_wrap2">
+												<span class="text_effect_wrap3">Soy</span>
+											</span>
+										</span>
+										<span class="text_effect_wrap1">
+											<span class="text_effect_wrap2">
+												<span class="text_effect_wrap3">Artista</span>
+											</span>
+										</span>
+										<span class="text_effect_wrap1">
+											<span class="text_effect_wrap2">
+												<span class="text_effect_wrap3">multidisciplinaria</span>
+											</span>
+										</span>
+									</h3>
+									<p>
+										Alemano-chilena, residente en el Perú desde hace más de 20 años. Mi interés por el arte me llevó estudiar historia y semiótica del arte, a formarme en diversas técnicas de pintura y escultura en cerámica y resina. 
+									</p>
+									<p>
+										Mi trabajo reciente ha estado inspirado por el arte africano. Expresado en la curaduría y producción de esculturas en resina que representan la diversidad de formas y materiales. La estética y la técnica, acompañan la multiplicidad de usos y significados.
+									</p>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</section>
+				<!-- Sobre Mi - end
+				================================================== -->
+
+				<!-- Galeria de Coleccion - start
+				================================================== -->
+				<section class="portfolio_section pb-0">
+					<div class="container">
+						<div class="row justify-content-lg-between">
+							<div class="section_title" style="padding-top: 40px;">
+								<h3 class="big_title mb-0 text_effect_wrap">
+									<img src="master/mascaras-africanas_logo.png" style="height: 110px;" alt="">
+								</h3>
+							</div>
+						</div>
+						<div class="details_content_space" style="padding-bottom: 50px;">
+							<p>
+								Las máscaras son un medio que comunica pasado (espíritus, héroes, historias) con el presente. Es una guía y rostro imaginario para eventos o momentos trascendentes.
+							</p>
+							<p>
+								Quien las hace, transmite desde la técnica, el espíritu. Es un instrumento que conecta. Creador y creación, más el que la luce. 
+							</p>
+							<p>
+								Permite un trance y tránsito, esconde pero exhibe.
+							</p>
+							<p>
+								Las máscaras son representaciones escultóricas de tribus africanas que se usan en celebraciones y ritos comunitarios; son proyecciones de animales, sentimientos, crecimiento, abstracciones y sus ancestros. 	
+							</p>
+							<p>
+								Mi propuesta es reinterpretar estas máscaras sin colores ni texturas, para detenernos a observar su volumen, la sutileza de sus detalles, la impronta artística y su papel antropológico y que nos permita poder convivir con su espíritu y carisma.	
+							</p>
+						</div>
+
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								<a class="portfolio_fullimage_layout" href="mascaras-africanas/01.html">
+									<img src="media/01.jpg" alt="image_not_found">
+									<span class="item_content">
+										<strong class="item_title">01.
+											</strong>
+										<small class="item_categories text-uppercase">Moonface Baule Goli</small>
+									</span>
+								</a>
+							</div>
+
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								<a class="portfolio_fullimage_layout" href="mascaras-africanas/02.html">
+									<img src="media/02.jpg" alt="image_not_found">
+									<span class="item_content">
+										<strong class="item_title">02. 
+											</strong>
+										<small class="item_categories text-uppercase">Helmet Mask Bembe tribe</small>
+									</span>
+								</a>
+							</div>
+
+							<div class="col-lg-12">
+								<a class="portfolio_fullimage_layout" href="mascaras-africanas/03.html">
+									<img src="media/03.jpg" alt="image_not_found">
+									<span class="item_content">
+										<strong class="item_title">03. 
+											</strong>
+										<small class="item_categories text-uppercase">Helmet Mask Bembe tribe</small>
+									</span>
+								</a>
+							</div>
+
+							<div class="details_content_space">
+								<a class="btn_text" href="mascaras-africanas.html">
+									<span>Ver Coleccion</span>
+									<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M10 0V7.50063H9.16833V1.42131L0.587991 10L0 9.41015L8.57868 0.833125H2.49418V0H10Z" fill="white"></path>
+									</svg>
+									</a>
+							</div>							
+						</div>
+					</div>
+				</section>
+				<!-- Galeria de Coleccion - end
+				================================================== -->
+
+			</main>
+			<!-- main body - end
+			================================================== -->
+
+			<!-- footer_section - start
+			================================================== -->
+			<footer class="footer_section" style="padding-top: 100px;" id="contacto">
+				<div class="container">
+
+					<h2 class="biggest_title text-center">
+						Bettina Hellmich
+					</h2>
+
+					<div class="footer_widget_area">
+						<div class="row">
+							<div class="col-lg-5 col-md-12">
+								<div class="footer_widget">
+									<div class="footer_copyright">
+										<div class="footer-logo">
+											<img src="master/Bettina-Hellmich_logo.png" style="height: 30px;" alt="logo_not_found">
+										</div>
+										<p class="mb-0">© 2022 Todos los derechos reservados</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-3 col-md-4 col-sm-4">
+								<div class="footer_widget footer_contact_info">
+									<h3 class="footer_widget_title text-uppercase">Contacto</h3>
+									<ul class="ul_li_block">
+										<li><a href="#!">contacto@bettinahellmich.com</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="col-lg-3 col-md-4 col-sm-4s">
+								<div class="footer_widget social_text_layout">
+									<h3 class="footer_widget_title text-uppercase">Sígueme</h3>
+									<ul class="ul_li_block">
+										<li><a href="#!">Instagram</a></li>
+
+									</ul>
+								</div>
+							</div>							
+						</div>
+					</div>
+					<p class="text-center" >Powered by 💡 <a class="btn_text btn_text" target="_blank" href="https://ingeniopantoja.com/">inGenio Pantoja</a></p>					
+				</div>
+
+			</footer>
+			<!-- footer_section - end
+			================================================== -->
+
+		</div>
+		<!-- body_wrap - end -->
+
+		<!-- framwork - jquery include -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+
+		<!-- jquery plugins -->
+		<script src="assets/js/jquery-plugins-collection.js"></script>
+
+		<!-- custom js -->
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
