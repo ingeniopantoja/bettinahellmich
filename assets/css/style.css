@@ -597,6 +597,11 @@ button {
   border-top: 1px solid #313636;
   border-bottom: 1px solid #313636;
 }
+.biggest_footer_new {
+  line-height: 1.37;
+  border-top: 1px solid #313636;
+
+}
 
 /* 2.9 - Title Style - end
 ================================================== */
