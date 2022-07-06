@@ -10,25 +10,6 @@
 (function($) {
   "use strict";
 
-    /*------------------------------------------
-        = back to top
-    -------------------------------------------*/
-    $(window).on("scroll", function() {
-        if ($(this).scrollTop() > 200) {
-            $('.backtotop:hidden').stop(true, true).fadeIn();
-        } else {
-            $('.backtotop').stop(true, true).fadeOut();
-        }
-    })
-
-    $(function() {
-        $(".scroll").on('click', function() {
-            $("html,body").animate({scrollTop: 0}, "slow");
-            return false
-        });
-    });
-
-
 
     /*------------------------------------------
         = preloader
