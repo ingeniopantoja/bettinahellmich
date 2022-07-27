@@ -1078,7 +1078,7 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #A67C00;
+  background-color: #838383;
 }
 .pulse:before, .pulse:after {
   top: 0px;
@@ -2094,6 +2094,7 @@ button {
 ================================================== */
 /* 3.10 - CallToAction - start
 ================================================== */
+
 .calltoaction_section {
   display: -webkit-box;
   display: -ms-flexbox;
